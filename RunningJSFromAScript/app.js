@@ -9,13 +9,13 @@
 // if (random < 0.5) {
 //     console.log("Finally");
 // }
-const dayOfWeek = "Friday";
+const dayOfWeek = "Friday".toLowerCase;
 
-if (dayOfWeek === "Monday") {
+if (dayOfWeek === "monday") {
     console.log("I hate mondays");
-} else if (dayOfWeek === "Sunday") {
+} else if (dayOfWeek === "sunday") {
     console.log("Yay it's Sunday");
-} else if (dayOfWeek === "Friday") {
+} else if (dayOfWeek === "friday") {
     console.log("Yes it's Friday");
 } else {
     console.log("Some other day");
