@@ -17,4 +17,6 @@ if (dayOfWeek === "Monday") {
     console.log("Yay it's Sunday");
 } else if (dayOfWeek === "Friday") {
     console.log("Yes it's Friday");
+} else {
+    console.log("Some other day");
 }
