@@ -4,3 +4,8 @@ if (rating === 3) {
 } else {
     console.log("This is false");
 }
+
+let random = Math.random();
+if (random < 0.5) {
+    console.log("Finally");
+}
