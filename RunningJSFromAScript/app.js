@@ -9,14 +9,15 @@
 // if (random < 0.5) {
 //     console.log("Finally");
 // }
-const dayOfWeek = "Friday".toLowerCase;
+// const dayOfWeek = "Friday".toLowerCase;
 
-if (dayOfWeek === "monday") {
-    console.log("I hate mondays");
-} else if (dayOfWeek === "sunday") {
-    console.log("Yay it's Sunday");
-} else if (dayOfWeek === "friday") {
-    console.log("Yes it's Friday");
-} else {
-    console.log("Some other day");
-}
+// if (dayOfWeek === "monday") {
+//     console.log("I hate mondays");
+// } else if (dayOfWeek === "sunday") {
+//     console.log("Yay it's Sunday");
+// } else if (dayOfWeek === "friday") {
+//     console.log("Yes it's Friday");
+// } else {
+//     console.log("Some other day");
+// }
+
