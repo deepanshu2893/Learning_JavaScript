@@ -20,4 +20,13 @@
 // } else {
 //     console.log("Some other day");
 // }
+const password = prompt("Please enter password");
+
+if (password.length >= 6) {
+    console.log("Password is fine")
+}
+else {
+    console.log("Password is too short");
+
+}
 
