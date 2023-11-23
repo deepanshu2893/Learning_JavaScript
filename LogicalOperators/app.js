@@ -16,6 +16,6 @@
 // }
 
 const firstName = prompt("Enter your first name");
-if (!firstName) {
+if (firstName) {
     console.log("First Name");
 } 
