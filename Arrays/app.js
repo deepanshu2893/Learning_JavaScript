@@ -13,3 +13,7 @@ let dog = ["black", "white", "yellow"];
 
 let cots = cat.concat(dog);
 console.log(cots);
+
+console.log(cots.includes("kitkat"));
+
+console.log(cots.indexOf("Orange"));
