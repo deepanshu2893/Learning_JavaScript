@@ -17,3 +17,4 @@ console.log(cots);
 console.log(cots.includes("kitkat"));
 
 console.log(cots.indexOf("Orange"));
+
