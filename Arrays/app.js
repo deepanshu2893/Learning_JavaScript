@@ -20,4 +20,4 @@ console.log(cots.indexOf("Orange"));
 
 
 const gameBoard = [["A", "B"], ["C", "D"]];
-console.log(gameBoard);
+console.log();
