@@ -13,3 +13,7 @@
 for (let i = 1; i <= 10; i++) {
     console.log(i);
 }
+
+for (let i = animals.length - 1; i >= 0; i--) {
+    console.log(animals[i]);
+}
