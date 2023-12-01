@@ -14,3 +14,8 @@ while (count < 10) {
     console.log(count);
     count++;
 }
+
+let login = prompt("Enter your name");
+while (login != "Deepanshu") {
+    login = prompt("Name is wrong");
+}
