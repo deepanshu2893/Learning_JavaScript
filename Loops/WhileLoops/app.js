@@ -20,12 +20,22 @@
 //     login = prompt("Name is wrong");
 // }
 
-let input = prompt("Hey, say something")
-while (true) {
-    input = prompt(input);
-    if (input.toLowerCase() === "stop copying me") {
-        break;
-    }
+// let input = prompt("Hey, say something")
+// while (true) {
+//     input = prompt(input);
+//     if (input.toLowerCase() === "stop copying me") {
+//         break;
+//     }
 
+// }
+// console.log("You win")
+
+
+
+let maximum = parseInt(prompt("Enter the maximum number"));
+
+while (!maximum) {
+    maximum = parseInt(prompt("Please enter a valid number"));
 }
-console.log("You win")
+const targetNum = Math.floor(Math.random() * maximum) + 1;
+console.log(targetNum);
