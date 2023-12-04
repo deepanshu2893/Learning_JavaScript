@@ -14,3 +14,12 @@ const testScores = {
 for (let person in testScores) {
     console.log(person + " " + testScores[person]);
 }
+
+
+let total = 0;
+let scores = Object.values(testScores);
+for (let score of scores) {
+    total = total + score;
+
+}
+console.log(total / scores.length)
