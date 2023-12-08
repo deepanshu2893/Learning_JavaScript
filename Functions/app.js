@@ -5,8 +5,8 @@ function singSong() {
     console.log("Mi")
 }
 
-function greet() {
-    console.log("Hi");
+function greet(firstName, lastName) {
+    console.log(`Hey there, ${firstName} ${lastName}`);
 }
 singSong()
 greet();
@@ -15,4 +15,7 @@ function happy(day) {
     console.log(`Today is ${day}`)
 }
 
-happy("Friday"); 
+happy("Friday");
+
+greet("Deepanshu", "Panwar");
+
