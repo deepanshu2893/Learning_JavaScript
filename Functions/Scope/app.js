@@ -22,5 +22,6 @@ function hello() {
             console.log(`Help, ${hero}`);
         }
     }
+    help();
 
 }
