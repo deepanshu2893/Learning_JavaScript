@@ -4,6 +4,6 @@ const myMath = {
         return num * num;
     },
     cube: function (num) {
-        return num * num * num;
+        return num ** 3;
     }
 }
