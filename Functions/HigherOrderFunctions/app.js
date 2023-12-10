@@ -36,6 +36,7 @@ function makeBetweenFunc(min, max) {
     }
 
 }
+
 // makeBetweenFunc(50, 100)
 
 // function isBetween(num){
