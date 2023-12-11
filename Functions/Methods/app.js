@@ -18,7 +18,7 @@ const cat = {
 
 
     hello() {
-        console.log(this.color + "asdsad");
+        console.log(this.color + " asdsad");
     }
 }
 
